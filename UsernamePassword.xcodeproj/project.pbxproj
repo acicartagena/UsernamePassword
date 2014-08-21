@@ -21,6 +21,8 @@
 		60438BBB19A5EDED003C8AA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60438B9D19A5EDEC003C8AA3 /* UIKit.framework */; };
 		60438BC319A5EDED003C8AA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60438BC119A5EDED003C8AA3 /* InfoPlist.strings */; };
 		60438BC519A5EDED003C8AA3 /* UsernamePasswordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60438BC419A5EDED003C8AA3 /* UsernamePasswordTests.m */; };
+		60438BD019A5F20B003C8AA3 /* ACIHelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60438BCF19A5F20B003C8AA3 /* ACIHelloWorldViewController.m */; };
+		60438BD319A5FA3E003C8AA3 /* ACITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 60438BD219A5FA3E003C8AA3 /* ACITextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		60438BC019A5EDED003C8AA3 /* UsernamePasswordTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UsernamePasswordTests-Info.plist"; sourceTree = "<group>"; };
 		60438BC219A5EDED003C8AA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60438BC419A5EDED003C8AA3 /* UsernamePasswordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UsernamePasswordTests.m; sourceTree = "<group>"; };
+		60438BCE19A5F20B003C8AA3 /* ACIHelloWorldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACIHelloWorldViewController.h; sourceTree = "<group>"; };
+		60438BCF19A5F20B003C8AA3 /* ACIHelloWorldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACIHelloWorldViewController.m; sourceTree = "<group>"; };
+		60438BD119A5FA3E003C8AA3 /* ACITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACITextField.h; sourceTree = "<group>"; };
+		60438BD219A5FA3E003C8AA3 /* ACITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACITextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +120,13 @@
 			children = (
 				60438BA819A5EDEC003C8AA3 /* ACIAppDelegate.h */,
 				60438BA919A5EDEC003C8AA3 /* ACIAppDelegate.m */,
+				60438BD119A5FA3E003C8AA3 /* ACITextField.h */,
+				60438BD219A5FA3E003C8AA3 /* ACITextField.m */,
 				60438BAB19A5EDED003C8AA3 /* Main.storyboard */,
 				60438BAE19A5EDED003C8AA3 /* ACIViewController.h */,
 				60438BAF19A5EDED003C8AA3 /* ACIViewController.m */,
+				60438BCE19A5F20B003C8AA3 /* ACIHelloWorldViewController.h */,
+				60438BCF19A5F20B003C8AA3 /* ACIHelloWorldViewController.m */,
 				60438BB119A5EDED003C8AA3 /* Images.xcassets */,
 				60438BA019A5EDEC003C8AA3 /* Supporting Files */,
 			);
@@ -250,6 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60438BD019A5F20B003C8AA3 /* ACIHelloWorldViewController.m in Sources */,
+				60438BD319A5FA3E003C8AA3 /* ACITextField.m in Sources */,
 				60438BAA19A5EDEC003C8AA3 /* ACIAppDelegate.m in Sources */,
 				60438BA619A5EDEC003C8AA3 /* main.m in Sources */,
 				60438BB019A5EDED003C8AA3 /* ACIViewController.m in Sources */,
